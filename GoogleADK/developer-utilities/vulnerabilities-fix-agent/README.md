@@ -1,12 +1,12 @@
 # vulnerabilities-fix-agent
 
-A simple Agentic AI tool that scans, reports, and safely fixes vulnerable dependencies in **Go** and **Java** projects.
+A simple Agentic AI tool that scans, reports, and safely fixes vulnerable dependencies in **Go** projects.
 
 Built with **Google ADK for Go** + **Gemini** + **OSV-Scanner**.
 
 ## Features
 
-- Scans `go.mod` and `build.gradle` for vulnerabilities
+- Scans `go.mod` for vulnerabilities
 - Generates clear vulnerability reports
 - Suggests and applies safe upgrades
 - Shows changes before applying (diff)
